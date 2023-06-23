@@ -13,5 +13,6 @@
 - x implement fontawesome icons
 	- x first normal implementation without :before
 	- x with :before	
-- .. work through this: https://dev.to/chokcoco/fantastic-css-border-animation-5166
-	- .. animated border around "slide" h2
+- x work through this: https://dev.to/chokcoco/fantastic-css-border-animation-5166
+	- x animated border around "slide" h2
+	- 
