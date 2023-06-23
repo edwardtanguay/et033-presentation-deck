@@ -68,4 +68,10 @@ body {
   position: absolute;
   bottom: 2rem;
   right: 2rem;
+  display: block;
+  background-color: #000;
+  border-radius: 50%;
+  height: 4rem;
+  width: 4rem;
+  transform: translate(-50%, -50%);
 }/*# sourceMappingURL=main.css.map */

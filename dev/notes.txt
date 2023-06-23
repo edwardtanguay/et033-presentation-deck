@@ -1,1 +1,7 @@
-- .. put slide1, slide2 in the middle
+- x put slide1, slide2 in the middle
+- .. make next a black ball with white text
+	- .. fix hack
+		- 1. use padding - doesn't work with multilingual sites
+		- 2. <div><a></a></div>
+		- 3. instead of <a></a> use <button></button>
+		- .. 4. <a><div>Weiter</div></a>
