@@ -72,29 +72,29 @@ body {
 		&::after {
 			content: "";
 			position: absolute;
-			width: 20px;
-			height: 20px;
+			width: 30px;
+			height: 30px;
 			transition: .3s ease-in-out;
 		}
 
 		&::before {
-			top: -5px;
-			left: -5px;
+			top: -10px;
+			left: -10px;
 			border-top: 1px solid $borderColor;
 			border-left: 1px solid $borderColor;
 		}
 
 		&::after {
-			right: -5px;
-			bottom: -5px;
+			right: -10px;
+			bottom: -10px;
 			border-bottom: 1px solid $borderColor;
 			border-right: 1px solid $borderColor;
 		}
 
 		&:hover::before,
 		&:hover::after {
-			width: calc(100% + 9px);
-			height: calc(100% + 9px);
+			width: calc(100% + 19px);
+			height: calc(100% + 19px);
 		}
 	}
 

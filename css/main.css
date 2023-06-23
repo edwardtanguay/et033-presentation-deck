@@ -69,25 +69,25 @@ body {
 .slide h2::before, .slide h2::after {
   content: "";
   position: absolute;
-  width: 20px;
-  height: 20px;
+  width: 30px;
+  height: 30px;
   transition: 0.3s ease-in-out;
 }
 .slide h2::before {
-  top: -5px;
-  left: -5px;
+  top: -10px;
+  left: -10px;
   border-top: 1px solid purple;
   border-left: 1px solid purple;
 }
 .slide h2::after {
-  right: -5px;
-  bottom: -5px;
+  right: -10px;
+  bottom: -10px;
   border-bottom: 1px solid purple;
   border-right: 1px solid purple;
 }
 .slide h2:hover::before, .slide h2:hover::after {
-  width: calc(100% + 9px);
-  height: calc(100% + 9px);
+  width: calc(100% + 19px);
+  height: calc(100% + 19px);
 }
 .slide a {
   position: absolute;
