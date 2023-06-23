@@ -5,3 +5,9 @@
 		- 2. <div><a></a></div>
 		- 3. instead of <a></a> use <button></button>
 		- .. 4. <a><div>Weiter</div></a>
+
+- try alternative solution with grid
+	--------------------------------
+	display: grid;
+	place-item: center;
+	--------------------------------

@@ -69,13 +69,13 @@ body {
 		position: absolute;
 		bottom: 2rem;
 		right: 2rem;
-		display: block;
+		display: flex;
+		justify-content: center;
+		align-items: center;
 		background-color: #000;
+		height: 5rem;
+		width: 5rem;
 		border-radius: 50%;
-		height: 4rem;
-		width: 4rem;
-		// padding: 1.4rem .9rem;
-		transform: translate(-50%, -50%);
+		color: #ccc;
 	}
 }
-
