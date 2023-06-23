@@ -63,6 +63,14 @@ body {
 
 	h2 {
 		font-size: 7rem;
+
+		&:before {
+			content: '(';
+		}
+
+		&:after {
+			content: ')';
+		}
 	}
 
 	a {

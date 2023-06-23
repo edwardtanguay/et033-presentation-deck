@@ -64,6 +64,12 @@ body {
 .slide h2 {
   font-size: 7rem;
 }
+.slide h2:before {
+  content: "(";
+}
+.slide h2:after {
+  content: ")";
+}
 .slide a {
   position: absolute;
   bottom: 2rem;
