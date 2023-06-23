@@ -65,10 +65,8 @@ body {
   font-size: 7rem;
 }
 .slide h2:before {
-  content: "(";
-}
-.slide h2:after {
-  content: ")";
+  font-family: "FontAwesome";
+  content: "\f1e7";
 }
 .slide a {
   position: absolute;

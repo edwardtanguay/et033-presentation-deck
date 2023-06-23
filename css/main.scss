@@ -63,13 +63,9 @@ body {
 
 	h2 {
 		font-size: 7rem;
-
 		&:before {
-			content: '(';
-		}
-
-		&:after {
-			content: ')';
+			font-family: 'FontAwesome';
+			content: "\f1e7";
 		}
 	}
 
