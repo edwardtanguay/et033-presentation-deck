@@ -1,13 +1,15 @@
 - x put slide1, slide2 in the middle
-- .. make next a black ball with white text
-	- .. fix hack
+- x make next a black ball with white text
+	- x fix hack
 		- 1. use padding - doesn't work with multilingual sites
 		- 2. <div><a></a></div>
 		- 3. instead of <a></a> use <button></button>
-		- .. 4. <a><div>Weiter</div></a>
-
-- try alternative solution with grid
+		- x 4. <a><div>Weiter</div></a>
+- x try alternative solution with grid
 	--------------------------------
 	display: grid;
 	place-item: center;
 	--------------------------------
+- .. implement fontawesome icons
+	- .. first normal implementation without :before
+	- with :before	
