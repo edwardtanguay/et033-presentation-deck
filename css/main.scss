@@ -1,3 +1,5 @@
+$borderColor: purple;
+
 * {
 	margin: 0;
 	padding: 0;
@@ -63,9 +65,36 @@ body {
 
 	h2 {
 		font-size: 7rem;
-		&:before {
-			font-family: 'FontAwesome';
-			content: "\f1e7";
+		position: relative;
+		border: 1px solid $borderColor;
+
+		&::before,
+		&::after {
+			content: "";
+			position: absolute;
+			width: 20px;
+			height: 20px;
+			transition: .3s ease-in-out;
+		}
+
+		&::before {
+			top: -5px;
+			left: -5px;
+			border-top: 1px solid $borderColor;
+			border-left: 1px solid $borderColor;
+		}
+
+		&::after {
+			right: -5px;
+			bottom: -5px;
+			border-bottom: 1px solid $borderColor;
+			border-right: 1px solid $borderColor;
+		}
+
+		&:hover::before,
+		&:hover::after {
+			width: calc(100% + 9px);
+			height: calc(100% + 9px);
 		}
 	}
 
