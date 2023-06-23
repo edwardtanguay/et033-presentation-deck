@@ -59,9 +59,16 @@ body {
 	display: flex;
 	justify-content: center;
 	align-items: center;
+	position: relative;
 
 	h2 {
 		font-size: 7rem;
+	}
+
+	a {
+		position: absolute;
+		bottom: 2rem;
+		right: 2rem;
 	}
 }
 
