@@ -1,3 +1,4 @@
+@charset "UTF-8";
 * {
   margin: 0;
   padding: 0;
@@ -7,6 +8,7 @@
 }
 
 body {
+  /* overflow: hidden funktioniert nur wenn width über 100vw */
   overflow: hidden;
   font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
