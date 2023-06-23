@@ -1,59 +1,65 @@
 * {
-	margin: 0;
-	padding: 0;
-	box-sizing: border-box;
-	text-decoration: none;
-	scroll-behavior: smooth;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+  scroll-behavior: smooth;
 }
 
 body {
-	overflow: hidden;
+  overflow: hidden;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
 #slide1 {
-	background-color: rgb(204, 166, 172);
+  background-color: rgb(204, 166, 172);
 }
 
 #slide2 {
-	background-color: rgb(115, 128, 189);
+  background-color: rgb(115, 128, 189);
 }
 
 #slide3 {
-	background-color: rgb(115, 189, 121);
+  background-color: rgb(115, 189, 121);
 }
 
 #slide4 {
-	background-color: rgb(189, 136, 115);
+  background-color: rgb(189, 136, 115);
 }
 
 #slide5 {
-	background-color: rgb(186, 115, 189);
+  background-color: rgb(186, 115, 189);
 }
 
 #slide6 {
-	background-color: rgb(115, 189, 115);
+  background-color: rgb(115, 189, 115);
 }
 
 #slide7 {
-	background-color: rgb(182, 189, 115);
+  background-color: rgb(182, 189, 115);
 }
 
 #slide8 {
-	background-color: rgb(115, 189, 173);
+  background-color: rgb(115, 189, 173);
 }
 
 #slide9 {
-	background-color: rgb(141, 77, 143);
+  background-color: rgb(141, 77, 143);
 }
 
 .slides {
-	display: grid;
-	grid-template-columns: repeat(3, 1fr);
-	grid-template-rows: repeat(3, 1fr);
-	width: 300vw;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: repeat(3, 1fr);
+  width: 300vw;
 }
 
 .slide {
-	height: 100vh;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
-
+.slide h2 {
+  font-size: 7rem;
+}/*# sourceMappingURL=main.css.map */
