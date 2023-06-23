@@ -5,10 +5,14 @@
 	text-decoration: none;
 }
 
+body {
+	overflow: hidden;
+}
+
 .slides {
 	display: grid;
 	grid-template-columns: repeat(3, 1fr);
 	grid-template-rows: repeat(3, 1fr);
-	width: 300vw;
+	width: 100vw;
 }
 
