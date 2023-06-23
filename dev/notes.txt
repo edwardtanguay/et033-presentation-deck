@@ -11,5 +11,6 @@
 	place-item: center;
 	--------------------------------
 - .. implement fontawesome icons
-	- .. first normal implementation without :before
-	- with :before	
+	- x first normal implementation without :before
+	- .. with :before	
+- work through this: https://dev.to/chokcoco/fantastic-css-border-animation-5166
